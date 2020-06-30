@@ -1,0 +1,120 @@
+:root{
+    --dark-primary-color: #455A64;
+    --light-primary-color: #CFD8DC;
+    --primary-color: #607D8B;
+    --text-icons: #FFFFFF;
+    --accent-color: #9E9E9E;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --heading-font: 'Mali', cursive;
+    --text-font: 'Mali'
+}
+*{
+    overflow: auto;
+}
+body{
+    font-family: 'Mali', cursive;
+    background: #455A64;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+.container{
+    background: #607D8B;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+h1{
+    font-family: 'Mali';
+    color: black;
+    text-align: center;
+}
+
+h2, h3{
+    font-family: 'Mali', cursive;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: #FFFFFF;
+    background: #212121;
+    
+}
+
+nav a .button:visited{
+    background: white;
+    border: black;
+    color: #607D8B;
+}
+nav a .button:visited{
+    background: white;
+    border: black;
+    color: #607D8B;
+}
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+img{
+    padding: 5px;
+    background: #CFD8DC;
+    width: 30%;
+}
+.mcdonalds{
+    padding: 5px;
+    background: #CFD8DC;
+    width: 80%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.learning{
+    padding: 5px;
+    background: #CFD8DC;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+figcaption{
+    text-align: center;
+    font-size: small;
+}
+aside{
+    clear: both;
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
