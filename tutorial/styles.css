@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 10px;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+:root{
+    --dark-primary-color: #FFA000;
+    --light-primary-color: #FFECB3;
+    --primary-color: #FFC107;
+    --text-icons: #212121;
+    --accent-color: #FFEB3B;
+    --header-text: #000000;
+    --primary-text: #000000;
+    --secondary-text: #757575;
+    --divider-color: #FFFFFF;
+    --heading-font: 'Abril Fatface', cursive;
+    --heading-font-h2: 'Abril Fatface', cursive;
+    --text-font: 'Abril Fatface', cursive;
+}
+
+ol, ul {
+	list-style: circle;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body{
+    font: 'Abril Fatface', cursive;
+	line-height: 1.5;
+    font-size: 1.2em;
+    background-color: var(--dark-primary-color);
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;;
+    color: var(--header-text);
+	text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+
+h2{
+    font-family: var(--heading-font-h2);
+    color: var(--dark-primary-color);
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h3{
+    font-family: var(--heading-font-h2);
+    color: var(--dark-secondary-color);
+    font-size: 1.3em;
+}
+
+header{
+	clear: both;
+    box-sizing: border-box;
+    padding: 20px;
+	text-align: center;
+}
+
+main{
+	margin: 10px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.container{
+	width: 90%;    
+	max-width: 1200px;
+    margin: 20px auto;
+	overflow: auto;
+	border-color: var(--divider-color);
+	border-style: dotted;
+    background-color: var(--light-primary-color);
+}
+
+footer, main, aside, article, div{
+    clear: both;
+}
+
+footer{
+	text-align:center;
+	padding: 20px;
+	color: var(--text-font);
+    opacity: .5;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+.left{
+    clear: both; 
+    float: left;
+    padding: 20px;
+}
+.right{
+    clear:both;
+    float: right;
+    padding: 30px;
+
+}
+
+.center{
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+
+img{
+    box-sizing: border-box;
+    margin: 10px;
+    display: block;
+    max-width: 300px;
+    height: auto;
+    border: 3px solid var(--accent-color);
+}
+
+.horizontal-menu{
+    display: inline;
+    margin-left: 20px;
+   
+}
+
+.horizontal-menu a{
+	text-decoration:none;
+}
+
+
+.links{
+    position: static;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+	margin: 15px 0;
+	
+}
+
+nav a, .button{
+	border: 5px solid var(--accent-color);
+	padding: 10px 20px;
+    margin-left: 20px;
+    color: var(--dark-secondary-color);
+    text-decoration: none;
+    border-radius: 15px;
+    border-style: dashed;
+    display: inline-block;
+    background-color: var(--primary-color);
+    font-family: var(--heading-font-h2);
+	
+}
+
+nav a:hover, .button:hover{
+    border-color: var(--divider-color);
+    color: var(--header-text);
+    background-color: var(--dark-primary-color);
+    }
+
+
+p{
+	padding: 10px;
+}
+
+aside{
+	margin: 20px auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
